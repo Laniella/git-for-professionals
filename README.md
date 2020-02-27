@@ -10,9 +10,9 @@ By the completion of this course, you can expect to:
 * Easily share and collaborate on digital work with coworkers and colleagues.
 
 ## Course Outline
-### [Chapter 1: What is Version Control?]()
-### [Chapter 2: Why use Version Control?]()
-### [Chapter 3: Introduction to Git]()
-### [Chapter 4: Tracking work with Git]()
-### [Chapter 5: Collaboration with Git]()
-### [Chapter 6: Git for Data Science]()
+### [Chapter 1: What is Version Control?](Chapter1)
+### [Chapter 2: Why use Version Control?](Chapter2)
+### [Chapter 3: Introduction to Git](Chapter3)
+### [Chapter 4: Tracking work with Git](Chapter4)
+### [Chapter 5: Collaboration with Git](Chapter5)
+### [Chapter 6: Git for Data Science](Chapter6)
