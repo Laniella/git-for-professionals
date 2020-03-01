@@ -1,4 +1,3 @@
-# Git For Professionals
 # Chapter 2: Why Use Version Control?
 
 

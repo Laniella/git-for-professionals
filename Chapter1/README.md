@@ -1,4 +1,3 @@
-# Git For Professionals
 # Chapter 1: What is Version Control?
 
 ## Tracking File History
@@ -17,4 +16,4 @@ Git is a VCS developed primarily for use by software developers. Git shines when
 
 ## Collaboration
 
-Another important feature of most VCS systems is the ability to share files and collaborate with others. 
+Another important feature of most VCS systems is the ability to share files and collaborate with others. The VCS style used and the way the system is set up greatly impacts the ease of collaboration. 
