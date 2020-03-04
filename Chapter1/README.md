@@ -35,6 +35,8 @@ Many people use version control software to backup their files to the cloud or t
   <svg class="svg-icon" viewBox="10 -5 100 100" id="file_icon_svg">
     <path d="M15.475,6.692l-4.084-4.083C11.32,2.538,11.223,2.5,11.125,2.5h-6c-0.413,0-0.75,0.337-0.75,0.75v13.5c0,0.412,0.337,0.75,0.75,0.75h9.75c0.412,0,0.75-0.338,0.75-0.75V6.94C15.609,6.839,15.554,6.771,15.475,6.692 M11.5,3.779l2.843,2.846H11.5V3.779z M14.875,16.75h-9.75V3.25h5.625V7c0,0.206,0.168,0.375,0.375,0.375h3.75V16.75z" id="file_icon">
     </path>
+    <path d="M15.475,6.692l-4.084-4.083C11.32,2.538,11.223,2.5,11.125,2.5h-6c-0.413,0-0.75,0.337-0.75,0.75v13.5c0,0.412,0.337,0.75,0.75,0.75h9.75c0.412,0,0.75-0.338,0.75-0.75V6.94C15.609,6.839,15.554,6.771,15.475,6.692 M11.5,3.779l2.843,2.846H11.5V3.779z M14.875,16.75h-9.75V3.25h5.625V7c0,0.206,0.168,0.375,0.375,0.375h3.75V16.75z">
+    </path>
   </svg>
   <circle cx="300" cy="50" r="30" stroke="black" stroke-width="3" fill="None"> </circle>
   <line x1="300" y1="50" x2="300" y2="20" stroke="black" id="clock_hand"> </line>
@@ -51,4 +53,15 @@ Git is a VCS developed primarily for use by software developers. Git shines when
 
 ## Collaboration
 
-Another important feature of most VCS systems is the ability to share files and collaborate with others. The VCS style used and the way the system is set up greatly impacts the ease of collaboration. 
+Another important feature of most VCS systems is the ability to share files and collaborate with others. The VCS style used and the way the system is set up greatly impacts the ease of collaboration.
+
+Generally automated backup systems perform poorly for collaboration. While an automated backup to a cloud is generally accessible by multiple users, the system does not do well when multiple users want to edit the same set of files. They produce too much data and it's difficult to sync differences if files are edited at the same time.
+
+One solution to this problem is to have the VCS service control who is allowed to edit a particular file at any time. This is known as "locking," where a user can check out a file like it's a library book, restricting anyone else from checking out the same file until it gets checked back in. Sharepoint uses this locking approach to collaboration. This may be the best option for some file types where the computer cannot easily perceive the differences between two files, like executables or pdfs.
+
+Git enables collaboration with a "merging" strategy. Since Git stores changes to files instead of copies of files, it's possible to apply multiple sets of changes to the same baseline file and end up with all changes properly implemented, even if two users edited the same file. We'll learn more about collaboration using Git in Chapter 5.
+
+## Summary
+
+Version Control Software allows users to create backups of their work that they can go back to at any point in time. Some VCS also enables users to collaborate on the same files with others.
+
