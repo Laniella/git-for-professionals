@@ -65,5 +65,5 @@ Git enables collaboration with a "merging" strategy. Since Git stores changes to
 
 Version Control Software allows users to create backups of their work that they can go back to at any point in time. Some VCS also enables users to collaborate on the same files with others.
 
-### [Chapter 2: Why use Version Control?](Chapter2)
+### [Chapter 2: Why use Version Control?](../Chapter2)
 
