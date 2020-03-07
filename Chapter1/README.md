@@ -38,9 +38,9 @@ Many people use version control software to backup their files to the cloud or t
     <path d="M15.475,6.692l-4.084-4.083C11.32,2.538,11.223,2.5,11.125,2.5h-6c-0.413,0-0.75,0.337-0.75,0.75v13.5c0,0.412,0.337,0.75,0.75,0.75h9.75c0.412,0,0.75-0.338,0.75-0.75V6.94C15.609,6.839,15.554,6.771,15.475,6.692 M11.5,3.779l2.843,2.846H11.5V3.779z M14.875,16.75h-9.75V3.25h5.625V7c0,0.206,0.168,0.375,0.375,0.375h3.75V16.75z">
     </path>
   </svg>
-  <circle cx="300" cy="50" r="30" stroke="black" stroke-width="3" fill="None"> </circle>
-  <line x1="300" y1="50" x2="300" y2="20" stroke="black" id="clock_hand"> </line>
-  <line x1="300" y1="15" x2="300" y2="10" stroke="black"> </line>
+  <circle cx="300" cy="70" r="30" stroke="black" stroke-width="3" fill="None"> </circle>
+  <line x1="300" y1="70" x2="300" y2="40" stroke="black" id="clock_hand"> </line>
+  <line x1="300" y1="35" x2="300" y2="30" stroke="black"> </line>
 </svg>
 
 Automatic version control either backs up files at set intervals or detects when changes are saved and backs up at that time. The user does not need to do anything for these backups to be created, but since they do not have any input on the backed up content, there's no guarantee that every backup will be at a useful point in the history of the file; it may be between logical revisions or in the middle of a change. Automated backup systems generally require a lot of storage space due to the extraneous backup copies.
@@ -64,4 +64,6 @@ Git enables collaboration with a "merging" strategy. Since Git stores changes to
 ## Summary
 
 Version Control Software allows users to create backups of their work that they can go back to at any point in time. Some VCS also enables users to collaborate on the same files with others.
+
+### [Chapter 2: Why use Version Control?](Chapter2)
 
