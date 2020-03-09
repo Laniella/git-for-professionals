@@ -32,18 +32,18 @@ Many people use version control software to backup their files to the cloud or t
       100% { transform: rotate(360deg); }
     }
   </style>
-  <text x="30" y="17">Time-Based Automatic Backup</text>
-  <svg class="svg-icon" viewBox="10 -5 100 100" id="file_icon_svg">
+  <text x="35" y="17" style="font-weight:bold">Time-Based Automatic Backup</text>
+  <svg class="svg-icon" viewBox="10 -15 100 100" id="file_icon_svg">
     <path d="M15.475,6.692l-4.084-4.083C11.32,2.538,11.223,2.5,11.125,2.5h-6c-0.413,0-0.75,0.337-0.75,0.75v13.5c0,0.412,0.337,0.75,0.75,0.75h9.75c0.412,0,0.75-0.338,0.75-0.75V6.94C15.609,6.839,15.554,6.771,15.475,6.692 M11.5,3.779l2.843,2.846H11.5V3.779z M14.875,16.75h-9.75V3.25h5.625V7c0,0.206,0.168,0.375,0.375,0.375h3.75V16.75z" id="file_icon">
     </path>
     <path d="M15.475,6.692l-4.084-4.083C11.32,2.538,11.223,2.5,11.125,2.5h-6c-0.413,0-0.75,0.337-0.75,0.75v13.5c0,0.412,0.337,0.75,0.75,0.75h9.75c0.412,0,0.75-0.338,0.75-0.75V6.94C15.609,6.839,15.554,6.771,15.475,6.692 M11.5,3.779l2.843,2.846H11.5V3.779z M14.875,16.75h-9.75V3.25h5.625V7c0,0.206,0.168,0.375,0.375,0.375h3.75V16.75z">
     </path>
   </svg>
-  <circle cx="200" cy="60" r="30" stroke="black" stroke-width="3" fill="None"> </circle>
-  <line x1="200" y1="60" x2="200" y2="30" stroke="black" id="clock_hand"> </line>
-  <line x1="200" y1="30" x2="200" y2="22" stroke="black"> </line>
-  <text x="330" y="17">On-Change Automatic Backup</text>
-  <image href="drive_history.png" x="350" y="50" width="200"></image>
+  <circle cx="200" cy="100" r="30" stroke="black" stroke-width="3" fill="None"> </circle>
+  <line x1="200" y1="100" x2="200" y2="70" stroke="black" id="clock_hand"> </line>
+  <line x1="200" y1="70" x2="200" y2="62" stroke="black"> </line>
+  <text x="340" y="17" style="font-weight:bold">On-Change Automatic Backup</text>
+  <image href="drive_history.png" x="350" y="30" width="200"></image>
 </svg>
 
 Automatic version control either backs up files at set intervals or detects when changes are saved and backs up at that time. The user does not need to do anything for these backups to be created, but since they do not have any input on the backed up content, there's no guarantee that every backup will be at a useful point in the history of the file; it may be between logical revisions or in the middle of a change. Automated backup systems generally require a lot of storage space due to the extraneous backup copies.
