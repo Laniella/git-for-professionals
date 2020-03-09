@@ -20,31 +20,31 @@ This is the most basic feature a version control system must have. The ability t
 <div class="interactive_area">
   <!-- Tab links -->
   <div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'file_copies')">File Copies</button>
-    <button class="tablinks" onclick="openTab(event, 'automated_backup')">Automated Backup</button>
-    <button class="tablinks" onclick="openTab(event, 'cloud_storage')">Cloud Storage</button>
-    <button class="tablinks" onclick="openTab(event, 'dedicated_vcs')">Dedicated VCS</button>
+    <button class="tablinks" onclick="openTab(event, 'file_copies_1')">File Copies</button>
+    <button class="tablinks" onclick="openTab(event, 'automated_backup_1')">Automated Backup</button>
+    <button class="tablinks" onclick="openTab(event, 'cloud_storage_1')">Cloud Storage</button>
+    <button class="tablinks" onclick="openTab(event, 'dedicated_vcs_1')">Dedicated VCS</button>
   </div>
   
   <!-- Tab content -->
-  <div id="file_copies" class="tabcontent">
+  <div id="file_copies_1" class="tabcontent">
     <h3>Manually Saving File Copies</h3>
     <p>Saving new versions with this method simply involves performing a "Save As" action from whatever application the file is being edited in. This does require the user to select a new name that hasn't been used before.</p>
     <p>A common convention is appending the date and time to the file when saving. This is a straightforward task that most users would be comfortable doing.</p>
   </div>
   
-  <div id="automated_backup" class="tabcontent">
+  <div id="automated_backup_1" class="tabcontent">
     <h3>Automated Backup (Time Machine)</h3>
     <p>No user action is required here to save new versions. The automated backup will run on its own. Once set up, this requires no effort from the user.</p>
   </div>
   
-  <div id="cloud_storage" class="tabcontent">
+  <div id="cloud_storage_1" class="tabcontent">
     <h3>Cloud Storage (Sharepoint/Google Drive)</h3>
     <p>There is some variance in interface between specific cloud storage solutions here, but in general, users need to upload files they want to save whenever they want a revision saved.</p>
     <p>This is a straightforward action, although does include an extra step beyond just saving a file locally.</p>
   </div>
 
-  <div id="dedicated_vcs" class="tabcontent">
+  <div id="dedicated_vcs_1" class="tabcontent">
     <h3>Dedicated VCS (Git)</h3>
     <p>This approach requires comparatively the most effort. Users need to select the specific changes they want to back up and then add a note about what changed. While this can be more work, users will often just add all changes they have made, eliminating the need to select specific changes.</p>
     <p>As we will see next, although writing a note about what has been changed requires more upfront effort when saving, the notes become very helpful for other version control tasks.</p>
@@ -58,29 +58,29 @@ After having collected a backlog of versions, users should be able to go back to
 <div class="interactive_area">
   <!-- Tab links -->
   <div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'file_copies')">File Copies</button>
-    <button class="tablinks" onclick="openTab(event, 'automated_backup')">Automated Backup</button>
-    <button class="tablinks" onclick="openTab(event, 'cloud_storage')">Cloud Storage</button>
-    <button class="tablinks" onclick="openTab(event, 'dedicated_vcs')">Dedicated VCS</button>
+    <button class="tablinks" onclick="openTab(event, 'file_copies_2')">File Copies</button>
+    <button class="tablinks" onclick="openTab(event, 'automated_backup_2')">Automated Backup</button>
+    <button class="tablinks" onclick="openTab(event, 'cloud_storage_2')">Cloud Storage</button>
+    <button class="tablinks" onclick="openTab(event, 'dedicated_vcs_2')">Dedicated VCS</button>
   </div>
   
   <!-- Tab content -->
-  <div id="file_copies" class="tabcontent">
+  <div id="file_copies_2" class="tabcontent">
     <h3>Manually Saving File Copies</h3>
     <p>test1.</p>
   </div>
   
-  <div id="automated_backup" class="tabcontent">
+  <div id="automated_backup_2" class="tabcontent">
     <h3>Automated Backup (Time Machine)</h3>
     <p>test2.</p>
   </div>
   
-  <div id="cloud_storage" class="tabcontent">
+  <div id="cloud_storage_2" class="tabcontent">
     <h3>Cloud Storage (Sharepoint/Google Drive)</h3>
     <p>test3.</p>
   </div>
 
-  <div id="dedicated_vcs" class="tabcontent">
+  <div id="dedicated_vcs_2" class="tabcontent">
     <h3>Dedicated VCS (Git)</h3>
     <p>test4.</p>
   </div>
@@ -90,19 +90,77 @@ After having collected a backlog of versions, users should be able to go back to
 
 The ability to share files with other users can be very useful as well. Some version control systems provide an easy mechanism for sharing files.
 
-// explory thing here where users can select each vcs type and see info
+<div class="interactive_area">
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'file_copies_3')">File Copies</button>
+    <button class="tablinks" onclick="openTab(event, 'automated_backup_3')">Automated Backup</button>
+    <button class="tablinks" onclick="openTab(event, 'cloud_storage_3')">Cloud Storage</button>
+    <button class="tablinks" onclick="openTab(event, 'dedicated_vcs_3')">Dedicated VCS</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="file_copies_3" class="tabcontent">
+    <h3>Manually Saving File Copies</h3>
+    <p>test1.</p>
+  </div>
+  
+  <div id="automated_backup_3" class="tabcontent">
+    <h3>Automated Backup (Time Machine)</h3>
+    <p>test2.</p>
+  </div>
+  
+  <div id="cloud_storage_3" class="tabcontent">
+    <h3>Cloud Storage (Sharepoint/Google Drive)</h3>
+    <p>test3.</p>
+  </div>
+
+  <div id="dedicated_vcs_3" class="tabcontent">
+    <h3>Dedicated VCS (Git)</h3>
+    <p>test4.</p>
+  </div>
+</div>
 
 ### Collaboration
 
 It's often even more useful to work together with others on the same file or files. Some version control systems help manage collaboration by tracking each user's changes.
 
-// explory thing here where users can select each vcs type and see info
+<div class="interactive_area">
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'file_copies_4')">File Copies</button>
+    <button class="tablinks" onclick="openTab(event, 'automated_backup_4')">Automated Backup</button>
+    <button class="tablinks" onclick="openTab(event, 'cloud_storage_4')">Cloud Storage</button>
+    <button class="tablinks" onclick="openTab(event, 'dedicated_vcs_4')">Dedicated VCS</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="file_copies_4" class="tabcontent">
+    <h3>Manually Saving File Copies</h3>
+    <p>test1.</p>
+  </div>
+  
+  <div id="automated_backup_4" class="tabcontent">
+    <h3>Automated Backup (Time Machine)</h3>
+    <p>test2.</p>
+  </div>
+  
+  <div id="cloud_storage_4" class="tabcontent">
+    <h3>Cloud Storage (Sharepoint/Google Drive)</h3>
+    <p>test3.</p>
+  </div>
 
-## [Chapters 1 and 2 Review]()
+  <div id="dedicated_vcs_4" class="tabcontent">
+    <h3>Dedicated VCS (Git)</h3>
+    <p>test4.</p>
+  </div>
+</div>
+
+## [Chapters 1 and 2 Review](https://docs.google.com/forms/d/e/1FAIpQLSfR8U1BG0grUf7HWuGJ9AoIWojtY48rpNyKCR5G2mg4q6gHRg/viewform?usp=sf_link)
 
 Please go through this quick review before continuing on to Chapter 3.
 
-## [Chapter 3: Introduction to Git](../Chapter3)
+### [Chapter 3: Introduction to Git](../Chapter3)
 
 <style>
 /* Style the tab */
@@ -126,7 +184,7 @@ Please go through this quick review before continuing on to Chapter 3.
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #777;
 }
 
 /* Create an active/current tablink class */
