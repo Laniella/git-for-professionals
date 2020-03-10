@@ -67,22 +67,25 @@ After having collected a backlog of versions, users should be able to go back to
   <!-- Tab content -->
   <div id="file_copies_2" class="tabcontent">
     <h3>Manually Saving File Copies</h3>
-    <p>test1.</p>
+    <p>In this case, users normally have lots of files with similar names in a folder. It's often quite difficult to know what each version contains since the only information is the file name.</p>
+    <p>With no information about what each copy contains or when each copy was saved, it's very difficult to locate a specific version when trying.</p>
   </div>
   
   <div id="automated_backup_2" class="tabcontent">
     <h3>Automated Backup (Time Machine)</h3>
-    <p>test2.</p>
+    <p>Automated backups make it easy to find a version of a file based on time, but they generally do not contain much information about what was changed. Since files are backed up at regular intervals, it's unlikely work will be lost, but if a user needs something from more than a few hours or days previous, it can take more effort to find the correct version.</p>
   </div>
   
   <div id="cloud_storage_2" class="tabcontent">
     <h3>Cloud Storage (Sharepoint/Google Drive)</h3>
-    <p>test3.</p>
+    <p>Cloud storage has similar properties to automated backups. There's usually not much information about what was changed, but since every save is uploaded manually, there's a good chance that each entry in the file history is useful.</p>
+    <p>In this case, it's still moderately difficult to locate a specific version of a file.</p>
   </div>
 
   <div id="dedicated_vcs_2" class="tabcontent">
     <h3>Dedicated VCS (Git)</h3>
-    <p>test4.</p>
+    <p>Dedicated VCS like Git enforces a change message with every change, so looking back through the history, it's relatively easy to see what was done at each point. For some file types, version control systems will easily show the state of the file and the changes made from there at any point in the history.</p>
+    <p>This ability to quickly determine what changed at each point in the file history makes it very simple to locate any specific version of a file. Furthermore, the VCS will track all files simultaneously, so it's possible to see the states of multiple files at any point in the past, ensuring that they match up.</p>
   </div>
 </div>
 
@@ -102,28 +105,29 @@ The ability to share files with other users can be very useful as well. Some ver
   <!-- Tab content -->
   <div id="file_copies_3" class="tabcontent">
     <h3>Manually Saving File Copies</h3>
-    <p>test1.</p>
+    <p>Sharing files as they exist on your computer is as easy or hard as sending them via email or some other file exchange application. Nothing about this process is automated though, so users must manually select and send the files they want.</p>
   </div>
   
   <div id="automated_backup_3" class="tabcontent">
     <h3>Automated Backup (Time Machine)</h3>
-    <p>test2.</p>
+    <p>Most backup systems are not intended for sharing with others. Backups are stored away on a hard drive and usually hidden behind the automated backup application. Sending a file from here usually requires downloading or reverting to the desired version before sending with email or some other file exchange application. Not a very simple process.</p>
   </div>
   
   <div id="cloud_storage_3" class="tabcontent">
     <h3>Cloud Storage (Sharepoint/Google Drive)</h3>
-    <p>test3.</p>
+    <p>Sharing files from cloud storage is very straightforward since they normally have a built in share feature. Users can get links to files and easily share them.</p>
+    <p>One caveat here is that to share an older version, it's still usually required to revert the file to the desired version before sharing.</p>
   </div>
 
   <div id="dedicated_vcs_3" class="tabcontent">
     <h3>Dedicated VCS (Git)</h3>
-    <p>test4.</p>
+    <p>Git and other version control systems have the concept of collaboration built in, so multiple users can have copies of the tracked files on their computers. Since it's all centrally managed, users will have access to the same logged file history, so sharing a file is as easy as sending the specific code for a point in history. Since old versions are tracked with codes, users are able to share older versions without modifying their local copy.</p>
   </div>
 </div>
 
 ### Collaboration
 
-It's often even more useful to work together with others on the same file or files. Some version control systems help manage collaboration by tracking each user's changes.
+It's often even more useful to work together with others simultaneously on the same file or files. Some version control systems help manage collaboration by tracking each user's changes.
 
 <div class="interactive_area">
   <!-- Tab links -->
@@ -137,22 +141,24 @@ It's often even more useful to work together with others on the same file or fil
   <!-- Tab content -->
   <div id="file_copies_4" class="tabcontent">
     <h3>Manually Saving File Copies</h3>
-    <p>test1.</p>
+    <p>There is no management for collaboration with this approach. It's very difficult to maintain a file that has multiple people contributing to it.</p>
   </div>
   
   <div id="automated_backup_4" class="tabcontent">
     <h3>Automated Backup (Time Machine)</h3>
-    <p>test2.</p>
+    <p>There is no management for collaboration with this approach. It's very difficult to maintain a file that has multiple people contributing to it.</p>
   </div>
   
   <div id="cloud_storage_4" class="tabcontent">
     <h3>Cloud Storage (Sharepoint/Google Drive)</h3>
-    <p>test3.</p>
+    <p>This approach incorporates some collaboration features, depending on which cloud storage solution is used.</p>
+    <p>Sharepoint, for instance, allows users to "check out" and lock a file so that no other users can edit it until it has been checked back in. This ensures there will not be any conflicts from two users changing the same file simultaneously, but also prevents some cases where multiple people may want to contribute together. Users also need to remember to check files back in after editing them.</p>
+    <p>Google Drive allows real time collaboration for their exclusive file types, but does not prevent overwriting another user's edits for files that are simply tracked.</p>
   </div>
 
   <div id="dedicated_vcs_4" class="tabcontent">
     <h3>Dedicated VCS (Git)</h3>
-    <p>test4.</p>
+    <p>Git and other version control systems are extremely powerful for allowing multiple users to contribute simultaneously. Since versions are stored by the VCS as changes from the previous version of the file, there is a function called merging that allows multiple changes to the same baseline to be applied together, provided that they do not directly conflict. Even if there is a conflict between two changes, the tool allows users to manually arbitrate what changes go in.</p>
   </div>
 </div>
 
@@ -221,5 +227,9 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+openTab(event, 'file_copies_1')
+openTab(event, 'file_copies_2')
+openTab(event, 'file_copies_3')
+openTab(event, 'file_copies_4')
 </script>
 
