@@ -230,22 +230,22 @@ function openTab(evt, tabName) {
 function colorCells() {
   var cells = document.getElementsByTagName("td");
 
-  for(var idx = 0; i < cells.length; ++idx) {
-    switch(tds[idx].innerText) {
+  for(var idx = 0; idx < cells.length; ++idx) {
+    switch(cells[idx].innerText) {
       case "Very Easy":
-        cells[idx].style.color = "#34FD9A";
+        cells[idx].style.backgroundColor = "#34FD9A";
         break;
       case "Easy":
-        cells[idx].style.color = "#79D0AC";
+        cells[idx].style.backgroundColor = "#79D0AC";
         break;
       case "Moderate":
-        cells[idx].style.color = "#ECEBBB";
+        cells[idx].style.backgroundColor = "#ECEBBB";
         break;
       case "Hard":
-        cells[idx].style.color = "#F2C1A3";
+        cells[idx].style.backgroundColor = "#F2C1A3";
         break;
       case "Very Hard":
-        cells[idx].style.color = "#F9BCA1";
+        cells[idx].style.backgroundColor = "#F9BCA1";
         break;
     }
   }
