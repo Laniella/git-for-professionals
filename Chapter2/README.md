@@ -201,7 +201,7 @@ Please go through this quick review before continuing on to Chapter 3.
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 12px;
+  padding: 6px 20px;
   border: 1px solid #333;
   border-top: none;
 }
@@ -227,9 +227,30 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+function colorCells() {
+  var cells = document.getElementsByTagName("td");
+
+  for(var idx = 0; i < cells.length; ++idx) {
+    switch(tds[idx].innerText) {
+      case "Very Easy":
+        cells[idx].style.color = "#34FD9A";
+        break;
+      case "Easy":
+        cells[idx].style.color = "#79D0AC";
+        break;
+      case "Moderate":
+        cells[idx].style.color = "#ECEBBB";
+        break;
+      case "Hard":
+        cells[idx].style.color = "#F2C1A3";
+        break;
+      case "Very Hard":
+        cells[idx].style.color = "#F9BCA1";
+        break;
+    }
+  }
+}
 openTab(event, 'file_copies_1')
-openTab(event, 'file_copies_2')
-openTab(event, 'file_copies_3')
-openTab(event, 'file_copies_4')
+colorCells()
 </script>
 
