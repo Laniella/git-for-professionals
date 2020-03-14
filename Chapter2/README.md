@@ -8,14 +8,14 @@ There are many ways to do version control, all of which can be scored on a few d
 
 |Version control approach|Saving new versions|Retrieving desired old version|Sharing|Collaboration|
 |------------------------|-------------------|------------------------------|-------|-------------|
-|File Copies             |Easy|Very Hard|Moderate|Very Hard|
-|Automated Backup        |Very Easy|Moderate|Hard|Very Hard|
-|Cloud Storage           |Easy|Moderate|Easy|Moderate|
-|Dedicated VCS           |Moderate|Very Easy|Easy|Very Easy|
+|*File Copies*           |Easy|Very Hard|Moderate|Very Hard|
+|*Automated Backup*      |Very Easy|Moderate|Hard|Very Hard|
+|*Cloud Storage*         |Easy|Moderate|Easy|Moderate|
+|*Dedicated VCS*         |Moderate|Very Easy|Easy|Very Easy|
 
 ### Saving New Versions
 
-This is the most basic feature a version control system must have. The ability to save new versions of files is basic, but has nuances in how it is handled. Select each tab below to learn about how the approaches above differ.
+Saving new versions of files is the most basic feature a version control system must have. The ability to save new versions of files is basic, but has nuances in how it is handled. Select each tab below to learn about how the approaches above differ.
 
 <div class="interactive_area">
   <!-- Tab links -->
@@ -27,7 +27,7 @@ This is the most basic feature a version control system must have. The ability t
   </div>
   
   <!-- Tab content -->
-  <div id="file_copies_1" class="tabcontent">
+  <div id="file_copies_1" class="tabcontent" style="display: block">
     <h3>Manually Saving File Copies</h3>
     <p>Saving new versions with this method simply involves performing a "Save As" action from whatever application the file is being edited in. This does require the user to select a new name that hasn't been used before.</p>
     <p>A common convention is appending the date and time to the file when saving. This is a straightforward task that most users would be comfortable doing.</p>
@@ -139,7 +139,7 @@ It's often even more useful to work together with others simultaneously on the s
   </div>
   
   <!-- Tab content -->
-  <div id="file_copies_4" class="tabcontent">
+  <div id="file_copies_4" class="tabcontent" onload="colorCells()">
     <h3>Manually Saving File Copies</h3>
     <p>There is no management for collaboration with this approach. It's very difficult to maintain a file that has multiple people contributing to it.</p>
   </div>
@@ -227,6 +227,7 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
 function colorCells() {
   var cells = document.getElementsByTagName("td");
 
@@ -250,7 +251,6 @@ function colorCells() {
     }
   }
 }
-openTab(event, 'file_copies_1')
-colorCells()
+document.onload = colorCells();
 </script>
 

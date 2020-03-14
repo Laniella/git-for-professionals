@@ -2,7 +2,7 @@
 
 ## Tracking File History
 
-Version Control Software (VCS) helps users track the history of a file or group of files in an organized manner. The basic tenet is that previous versions can be retrieved at any time. There are many different ways to accomplish version control including: scheduled automatic backups, basic manual backups, and annotated manual backups, each with their own benefits and drawbacks. Some examples you may recognize include the history functionality on Google Docs and Apple's Time Machine service.
+Version Control Software (VCS) helps users track the history of a file or group of files in an organized manner. The basic tenet is that previous versions can be retrieved at any time. There are many different ways to accomplish version control including: scheduled automatic backups, basic manual backups, and annotated manual backups; each with their own benefits and drawbacks. Some examples you may recognize include the history functionality on Google Docs and Apple's Time Machine service.
 
 Many people use version control software to backup their files to the cloud or to an external hard drive. This is normally to preserve their files so that in the case of a computer issue, their files will still exist on a secondary storage device. Apple's Time Machine is an example of such a system, which creates backups of files at scheduled intervals. This automatic backup style allows users to forget about it until they need to retrieve a file.
 
@@ -58,11 +58,11 @@ Git is a VCS developed primarily for use by software developers. Git shines when
 
 Another important feature of most VCS systems is the ability to share files and collaborate with others. The VCS style used and the way the system is set up greatly impacts the ease of collaboration.
 
-Generally automated backup systems perform poorly for collaboration. While an automated backup to a cloud is generally accessible by multiple users, the system does not do well when multiple users want to edit the same set of files. They produce too much data and it's difficult to sync differences if files are edited at the same time.
+Generally, automated backup systems perform poorly for collaboration. While an automated backup to a cloud is generally accessible by multiple users, the system does not do well when multiple users want to edit the same set of files. They produce too much data and it is difficult to sync the differences if files are edited at the same time.
 
-One solution to this problem is to have the VCS service control who is allowed to edit a particular file at any time. This is known as "locking," where a user can check out a file like it's a library book, restricting anyone else from checking out the same file until it gets checked back in. Sharepoint uses this locking approach to collaboration. This may be the best option for some file types where the computer cannot easily perceive the differences between two files, like executables or pdfs.
+One solution to this problem is to have the VCS service control who is allowed to edit a particular file at any time. This is known as "locking," where a user can check out a file like it is a library book, restricting others from checking out the same file until it gets checked back in. Sharepoint uses this locking approach for collaboration. This may be the best option for some file types where the computer cannot easily perceive the differences between two files, like executables or pdfs.
 
-Git enables collaboration with a "merging" strategy. Since Git stores changes to files instead of copies of files, it's possible to apply multiple sets of changes to the same baseline file and end up with all changes properly implemented, even if two users edited the same file. We'll learn more about collaboration using Git in Chapter 5.
+Git enables collaboration with a "merging" strategy. Since Git stores changes to files instead of copies of files, it is possible to apply multiple sets of changes to the same baseline file and end up with all changes properly implemented, even if two users edited the same file. We will learn more about collaboration using Git in Chapter 5.
 
 ## Summary
 
