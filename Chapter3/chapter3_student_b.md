@@ -46,7 +46,7 @@ Now it's time to contribute some content. Right click the README.md in the pane 
 
 ![edit file](edit_file.png)
 
-In the editing window, add a line to the bottom of the file that says "[your name] was here!" and save your changes with your OS shortcut for save (command + s or ctrl + s). Once you save your change, your UI should change and you'll see a screen like the following:
+In the editing window, add a line to the bottom of the file that says "[your name] was here!" and save your changes with your OS shortcut for save (command + s or ctrl + s). Note that you can make any changes to the files in this repo, including using applications outside of GitKraken, and GitKraken will detect and show them. Once you save your change, your UI should change and you'll see a screen like the following:
 
 ![changes were made](made_changes_b.png)
 
