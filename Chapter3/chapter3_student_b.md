@@ -6,7 +6,7 @@ Welcome, Student B! Your partner is going through a similar guide right now. Let
 
 The most important feature to note is the sync-up checkpoint. Throughout the guide, you will see numbered checkpoints like the one below this paragraph. When you reach one of these, you should notify your partner that you have reached the checkpoint, including the number. If your partner had already reached the same checkpoint, you may both continue onwards; otherwise, you will need to wait until your partner reaches their checkpoint. Let's practice with the one below. Sync up with your partner to ensure you've both reached this point in the exercise.
 
-#### :warning: **Checkpoint 1** :warning:
+> :warning: **Checkpoint 1** :warning:
 
 Great! Now that we're all synced up, let's go over some Git terminology. 
 
@@ -24,7 +24,7 @@ In this exercise, you will be cloning a repo, saving some work, and merging some
 
 Your partner needs to create the repo before you can clone it.
 
-#### :warning: **Checkpoint 2** :warning:
+> :warning: **Checkpoint 2** :warning:
 
 ### Clone a Repo
 
@@ -62,7 +62,7 @@ Finally, click "Commit changes to 1 file" at the bottom of the window. You shoul
 
 Your partner probably got here before you since you had to clone the repo they had already created. That means they will push their changes first. Let's sync up to make sure they've done so.
 
-#### :warning: **Checkpoint 3** :warning:
+> :warning: **Checkpoint 3** :warning:
 
 Now it's your turn to push your changes. Your commit log view should have changed a bit to look similar to the following screenshot showing your partner's commit.
 
@@ -74,7 +74,7 @@ You'll need to do a merge to push your changes now. Click "Push" in the top bar.
 
 Click the green option that says "Pull (fast-forward if possible)". This will pull your partners changes and automatically merge your changes together. Once this completes, your changes have been pushed. Let's sync back up with your partner.
 
-#### :warning: **Checkpoint 4** :warning:
+> :warning: **Checkpoint 4** :warning:
 
 Great! Now you should have a commit log that looks similar to this.
 
@@ -91,3 +91,5 @@ You should see that the README.md file now has the contributions from both you a
 ## Conclusion
 
 In this chapter, you used Git for the first time, using the Git Kraken software. You clone a repo from Github, made and committed a change, saw Git automatically merge your change with your partner's, and finally pushed your change. In the next chapter, you will create the repo so you can get practice creating a repo and pulling changes.
+
+### [Chapter 4: Tracking work with Git](../Chapter4)

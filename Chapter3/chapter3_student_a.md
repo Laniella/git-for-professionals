@@ -6,7 +6,7 @@ Welcome, Student A! Your partner is going through a similar guide right now. Let
 
 The most important feature to note is the sync-up checkpoint. Throughout the guide, you will see numbered checkpoints like the one below this paragraph. When you reach one of these, you should notify your partner that you have reached the checkpoint, including the number. If your partner had already reached the same checkpoint, you may both continue onwards; otherwise, you will need to wait until your partner reaches their checkpoint. Let's practice with the one below. Sync up with your partner to ensure you've both reached this point in the exercise.
 
-#### :warning: **Checkpoint 1** :warning:
+> :warning: **Checkpoint 1** :warning:
 
 Great! Now that we're all synced up, let's go over some Git terminology. 
 
@@ -42,7 +42,7 @@ Now you need to share the repo with your partner so they can also have access to
 
 You'll now need to copy and share the URL to this page with your partner.
 
-#### :warning: **Checkpoint 2** :warning:
+> :warning: **Checkpoint 2** :warning:
 
 ### Add and Commit Changes
 
@@ -68,11 +68,11 @@ You're likely ahead of your partner at this point since they had to clone the re
 
 In your commit log view, click "Push" in the top bar. This will take a few seconds and then you'll see a popup showing that your changes were successfully pushed.
 
-#### :warning: **Checkpoint 3** :warning:
+> :warning: **Checkpoint 3** :warning:
 
 Now we need to wait for your partner to push their changes. This shouldn't take more than 5 minutes.
 
-#### :warning: **Checkpoint 4** :warning:
+> :warning: **Checkpoint 4** :warning:
 
 Great! Now you should have a commit log that looks similar to this.
 
@@ -91,3 +91,5 @@ You should see that the README.md file now has the contributions from both you a
 ## Conclusion
 
 In this chapter, you used Git for the first time, using the Git Kraken software. You created a repo on Github, made and committed a change, pushed your change, and finally pulled another change from your partner that Git automatically merged with your change. In the next chater your partner will create a repo so you can get practice cloning a repo and merging changes.
+
+### [Chapter 4: Tracking work with Git](../Chapter4)
