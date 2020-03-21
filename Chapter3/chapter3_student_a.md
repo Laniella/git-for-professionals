@@ -26,19 +26,19 @@ In this exercise, you will be creating a repo, saving some work, and merging som
 
 To begin, click "on GitHub" under "Start a hosted repo".
 
-![Create Repo](create_repo.png)
+![Create Repo](../img/create_repo.png)
 
 In the menu, select your own user and then copy the name and description fields as shown below. Then select somewhere reasonable to save your project on your computer and click "Create repository and clone".
 
-![Create Repo Menu](create_repo_menu_a.png)
+![Create Repo Menu](../img/create_repo_menu_a.png)
 
 You should now have a tab in Git Kraken that looks similar to the following screenshot. This is your new repo with the automatic initial commit. GitKraken also added an empty README file for you. This view shows all the entries in the history of the repo. There isn't much here yet.
 
-![Blank Repo](blank_repo_page.png)
+![Blank Repo](../img/blank_repo_page.png)
 
 Now you need to share the repo with your partner so they can also have access to it. Get the Github url by clicking on "origin" as shown in the picture below, and then selecting "View origin on Github.com".
 
-![View origin](view_origin.png)
+![View origin](../img/view_origin.png)
 
 You'll now need to copy and share the URL to this page with your partner.
 
@@ -48,19 +48,19 @@ You'll now need to copy and share the URL to this page with your partner.
 
 Now it's time to contribute some content. Right click the README.md in the pane on the right and select "edit file"
 
-![edit file](edit_file.png)
+![edit file](../img/edit_file.png)
 
 In the editing window, add a line to the bottom of the file that says "[your name] was here!" and save your changes with your OS shortcut for save (command + s or ctrl + s). Note that you can make any changes to the files in this repo, including using applications outside of GitKraken, and GitKraken will detect and show them. Once you save your change, your UI should change and you'll see a screen like the following:
 
-![changes were made](made_changes_a.png)
+![changes were made](../img/made_changes_a.png)
 
 Now we're going to commit this change. We will save this state of the project to the history. Click "Stage all changes" at the top right of the pane on the right. Then type in your commit message, a summary of what's changed, in the box at the bottom right as shown in the following screenshot.
 
-![about to commit](staged_changes_a.png)
+![about to commit](../img/staged_changes_a.png)
 
 Finally, click "Commit changes to 1 file" at the bottom of the window. You should now have a new entry in your commit log history view!
 
-![new commit log](commit_log_a.png)
+![new commit log](../img/commit_log_a.png)
 
 ### Sync up with your Partner
 
@@ -76,17 +76,17 @@ Now we need to wait for your partner to push their changes. This shouldn't take 
 
 Great! Now you should have a commit log that looks similar to this.
 
-![final commit log](new_commit_log_a.png)
+![final commit log](../img/new_commit_log_a.png)
 
 You'll need to click "Pull" at the top to pull the new changes from your partner into your local copy of the repo.
 
 Let's look at README.md now. Right click README.md and select "Open in default program".
 
-![open file](open_file.png)
+![open file](../img/open_file.png)
 
 You should see that the README.md file now has the contributions from both you and your partner!
 
-![new readme](new_readme.png)
+![new readme](../img/new_readme.png)
 
 ## Conclusion
 

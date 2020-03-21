@@ -30,33 +30,33 @@ Your partner needs to create the repo before you can clone it.
 
 You should have received a link to a Github project from your partner at Checkpoint 2. Go to this URL and click the "Clone or Download" button as shown in the screenshot below. Make sure you have the https link in the popup and copy that URL. We'll use that to clone the repo in Git Kraken.
 
-![Github clone url](github_clone.png)
+![Github clone url](../img/github_clone.png)
 
 To clone your partner's repo, click "Clone a Repo" in the left-side menu. In the menu that appears, select a reasonable spot on your computer to save this new project. Then paste the URL you copied from github into the second box. Your screen should look similar to the following (but with a different path and URL).
 
-![GitKraken Clone Menu](gitkraken_clone.png)
+![GitKraken Clone Menu](../img/gitkraken_clone.png)
 
 After cloning completes, click "Open now" in the popup at the top of the window. You should now have a tab in Git Kraken that looks similar to the following screenshot. This view shows all the entries in the history of the repo. There isn't much here yet.
 
-![Blank Repo](blank_repo_page.png)
+![Blank Repo](../img/blank_repo_page.png)
 
 ### Add and Commit Changes
 
 Now it's time to contribute some content. Right click the README.md in the pane on the right and select "edit file"
 
-![edit file](edit_file.png)
+![edit file](../img/edit_file.png)
 
 In the editing window, add a line to the bottom of the file that says "[your name] was here!" and save your changes with your OS shortcut for save (command + s or ctrl + s). Note that you can make any changes to the files in this repo, including using applications outside of GitKraken, and GitKraken will detect and show them. Once you save your change, your UI should change and you'll see a screen like the following:
 
-![changes were made](made_changes_b.png)
+![changes were made](../img/made_changes_b.png)
 
 Now we're going to commit this change. We will save this state of the project to the history. Click "Stage all changes" at the top right of the pane on the right. Then type in your commit message, a summary of what's changed, in the box at the bottom right as shown in the following screenshot.
 
-![about to commit](staged_changes_b.png)
+![about to commit](../img/staged_changes_b.png)
 
 Finally, click "Commit changes to 1 file" at the bottom of the window. You should now have a new entry in your commit log history view!
 
-![new commit log](commit_log_b.png)
+![new commit log](../img/commit_log_b.png)
 
 ### Sync up with your Partner
 
@@ -66,11 +66,11 @@ Your partner probably got here before you since you had to clone the repo they h
 
 Now it's your turn to push your changes. Your commit log view should have changed a bit to look similar to the following screenshot showing your partner's commit.
 
-![partner pushed](partner_pushed.png)
+![partner pushed](../img/partner_pushed.png)
 
 You'll need to do a merge to push your changes now. Click "Push" in the top bar. You should get a warning notification like the following:
 
-![pull first warning](pull_first_warning.png)
+![pull first warning](../img/pull_first_warning.png)
 
 Click the green option that says "Pull (fast-forward if possible)". This will pull your partners changes and automatically merge your changes together. Once this completes, your changes have been pushed. Let's sync back up with your partner.
 
@@ -78,15 +78,15 @@ Click the green option that says "Pull (fast-forward if possible)". This will pu
 
 Great! Now you should have a commit log that looks similar to this.
 
-![final commit log](new_commit_log_b.png)
+![final commit log](../img/new_commit_log_b.png)
 
 Let's look at README.md now. Right click README.md and select "Open in default program".
 
-![open file](open_file.png)
+![open file](../img/open_file.png)
 
 You should see that the README.md file now has the contributions from both you and your partner!
 
-![new readme](new_readme.png)
+![new readme](../img/new_readme.png)
 
 ## Conclusion
 

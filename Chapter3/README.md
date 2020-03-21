@@ -16,20 +16,20 @@ For this course, we will use software called Git Kraken that provides a nice use
 * Open the installer and follow instructions to install.
 * Launch Git Kraken. You should see a screen like the following image
 
-![GitKraken login screen](gitkraken_login.png)
+![GitKraken login screen](../img/gitkraken_login.png)
 * Click "Sign in with Github".
 * Click authorize and enter your password if requested.
 * Click authorize again.
 * Once you see the success screen as below, close the browser window and return to Git Kraken.
 
-![GitKraken success screen](gitkraken_success.png)
+![GitKraken success screen](../img/gitkraken_success.png)
 * Create your Git Kraken profile by filling in information and clicking "Save Changes", as is shown below.
 
-![GitKraken Profile](gitkraken_profile.png)
+![GitKraken Profile](../img/gitkraken_profile.png)
 * Close the popup and release notes tab.
 * Once your Git Kraken looks like this, you're ready to go!
 
-![GitKraken landing screen](gitkraken_landing.png)
+![GitKraken landing screen](../img/gitkraken_landing.png)
 
 ## Partners
 
