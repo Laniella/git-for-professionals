@@ -33,7 +33,9 @@ For this course, we will use software called Git Kraken that provides a nice use
 
 ## Partners
 
-You will need a partner for the exercises in this chapter, as each partner will have a different role and a separate set of instructions. Designate one of you *Student A* and one *Student B*. Then click your respective links below to get to your specific exercise instructions!
+You will need a partner for the exercises in this and all following chapters, as each partner will have a different role and a separate set of instructions. Note that Git is an amazing collaborative software, but it does not replace traditional communication. You should talk to your partner as you go through the course and discuss things you've learned. Both partners will have learned the same content by the end of the course, but discussing as you are learning is highly encouraged to further your grasp of the concepts here.
+
+Designate one of you *Student A* and one *Student B*. Then click your respective links below to get to your specific exercise instructions!
 
 ### [Student A](chapter3_student_a.md)
 ### [Student B](chapter3_student_b.md)
