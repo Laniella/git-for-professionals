@@ -50,6 +50,10 @@ Finally, everything has been merged into master. All work from both partners is 
 
 ![Final Readme](../img/final_readme.png)
 
+You can return to Git Kraken to see the final commit history as well. It should look similar to the following.
+
+![Final commit history](../img/gitkraken_final_history.png)
+
 Recording work like this is not only useful for the users, who can go back to previous versions, but it's also incredibly useful for others interested in the process you followed in your work. Scientists will find that this is can fully document the process they took to arrive at a final project, if they commit regularly. This history makes work very transparent and much more easily reproducible. If the work is made public, others can even help develop the project by making their own changes and submitting a pull request for the owner to review. Collaboration using Git helps everyone involved. In the next and final chapter, we'll take a look at a real scientific research team using Git to manage and share their work.
 
 ## [Chapter 6: Git for Data Science](../Chapter6)
