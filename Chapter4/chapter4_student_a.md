@@ -40,7 +40,7 @@ Now if you close out of the README editor, your history should look like the fol
 
 ![Git log with commit](../img/log_4a_1.png)
 
-Let's add some data now. Download [this mouse litter size and weight data file](../data/litters.csv) and place it in the gfp-project folder. When you go back to Git Kraken, you should see a new //WIP entry above your previous commit. Clicking that WIP entry should bring up the following UI where you can stage the file.
+Let's add some data now. Download [this mouse litter size and weight data file](../data/litters.csv) and place it in the project folder. When you go back to Git Kraken, you should see a new //WIP entry above your previous commit. Clicking that WIP entry should bring up the following UI where you can stage the file.
 
 ![Stage data file](../img/wip_datafile_a.png)
 
@@ -64,7 +64,7 @@ We should create a new branch here so we can track any changes we make from here
 
 ![Creating branch from a commit](../img/create_branch_from_commit_a.png)
 
-Now let's add in a different dataset. Download [this New York City air quality dataset](../data/airquality.csv) from the R dataset collection. Add this file to the gfp-project folder as you did before. Update the README like before but link to this air quality dataset instead of the mouse litter dataset. Stage both files and commit them. Your repo should look like the following image after committing those changes.
+Now let's add in a different dataset. Download [this New York City air quality dataset](../data/airquality.csv) from the R dataset collection. Add this file to the project folder as you did before. Update the README like before but link to this air quality dataset instead of the mouse litter dataset. Stage both files and commit them. Your repo should look like the following image after committing those changes.
 
 ![Git log with air quality dataset commit](../img/log_4a_3.png)
 
@@ -92,7 +92,7 @@ Now simply click "Commit and Merge." There's no need to set or change the commit
 
 ![Commit log](../img/log_4a_4.png)
 
-Congratulations, you just resolved a conflict and merged two separate branches together! You can check the gfp-project folder on your computer now and you should see both datasets that we added earlier.
+Congratulations, you just resolved a conflict and merged two separate branches together! You can check the project folder on your computer now and you should see both datasets that we added earlier.
 
 ### Deleting old branches
 

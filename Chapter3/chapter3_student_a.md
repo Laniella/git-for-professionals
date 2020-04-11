@@ -28,7 +28,7 @@ To begin, click "on GitHub" under "Start a hosted repo".
 
 ![Create Repo](../img/create_repo.png)
 
-In the menu, select your own user and then copy the name and description fields as shown below. Then select somewhere reasonable to save your project on your computer and click "Create repository and clone".
+In the menu, select your own user and then copy the name and description fields as shown below. In the name field, you should add an underscore followed by your name so that the repo name is unique. Then select somewhere reasonable to save your project on your computer and click "Create repository and clone".
 
 ![Create Repo Menu](../img/create_repo_menu_a.png)
 

@@ -10,7 +10,7 @@ To begin, create a new tab in Git Kraken, then click "on GitHub" under "Start a 
 
 ![Create Repo](../img/create_repo.png)
 
-In the menu, select your own user and then copy the name and description fields as shown below. Then select somewhere reasonable to save your project on your computer and click "Create repository and clone".
+In the menu, select your own user and then copy the name and description fields as shown below. Add an underscore followed by your name to the repo name field to ensure that it is unique. Then select somewhere reasonable to save your project on your computer and click "Create repository and clone".
 
 ![Create Repo Menu](../img/create_repo_menu_4b.png)
 
@@ -46,7 +46,7 @@ Now if you close out of the README editor, your history should look like the fol
 
 ![Git log with commit](../img/log_4b_1.png)
 
-Let's add some data now. Download [this forest fire data file](../data/forestfires.csv) and place it in the gfp-project folder. When you go back to Git Kraken, you should see a new //WIP entry above your previous commit. Clicking that WIP entry should bring up the following UI where you can stage the file.
+Let's add some data now. Download [this forest fire data file](../data/forestfires.csv) and place it in the project folder. When you go back to Git Kraken, you should see a new //WIP entry above your previous commit. Clicking that WIP entry should bring up the following UI where you can stage the file.
 
 ![Stage data file](../img/wip_datafile.png)
 
@@ -70,7 +70,7 @@ We should create a new branch here so we can track any changes we make from here
 
 ![Creating branch from a commit](../img/create_branch_from_commit.png)
 
-Now let's add in a different dataset. Download [this Old Faithful Geyser eruption times dataset](../data/faithful.csv) from the R dataset collection. Add this file to the gfp-project folder as you did before. Update the README like before but link to this old faithful dataset instead of the forest fire dataset. Stage both files and commit them. Your repo should look like the following image after committing those changes.
+Now let's add in a different dataset. Download [this Old Faithful Geyser eruption times dataset](../data/faithful.csv) from the R dataset collection. Add this file to the project folder as you did before. Update the README like before but link to this old faithful dataset instead of the forest fire dataset. Stage both files and commit them. Your repo should look like the following image after committing those changes.
 
 ![Git log with old faithful dataset commit](../img/log_4b_3.png)
 
@@ -98,7 +98,7 @@ We want to keep both of those lines since we'll have both datasets in the repo. 
 
 Stage your changes and click "Commit and Merge." There's no need to set or change the commit message this time since this is a merge commit and Git automatically put in the information that you merged two branches together. You can of course always add more information if you'd like.
 
-Congratulations, you just resolved a conflict and merged two separate branches together! You can check the gfp-project folder on your computer now and you should see both datasets that we added earlier.
+Congratulations, you just resolved a conflict and merged two separate branches together! You can check the project folder on your computer now and you should see both datasets that we added earlier.
 
 ### Deleting old branches
 
