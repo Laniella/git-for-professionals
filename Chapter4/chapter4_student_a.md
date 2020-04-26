@@ -1,4 +1,4 @@
-# Chapter 3: Tracking work with Git - Setup
+# Chapter 4: Tracking work with Git - Setup
 
 ## Student A
 
